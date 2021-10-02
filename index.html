@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Clock</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body onload = loadTime()>
+        <div id="container">
+
+            <div class="clock-number">
+                <h1 id="numericalHour">8</h1>
+                <h1 id="numericalMinute">51</h1>
+                <h1 id="numericalSecond">30</h1>
+                <h1 id="amPmContainer">am</h1>
+            </div>
+
+            <div class="clock-english">
+                <h1 id="clockEnglishHours">eight</h1>
+                <h1 id="clockEnglishMinutesTen">fifty</h1>
+                <!-- <h1 id="clockEnglishSeconds">one</h1> -->
+                <h1 id="amPmContainerWord">pm</h1>
+            </div>
+
+            <div class="clock-malay">
+                <h1 id="clockMalayHours">lapan</h1>
+                <h1 id="clockMalayMinutes">lima</h1>
+                <h1 id="amPmContainerWordWord">pm</h1>
+            </div>
+        </div>
+        <script src="./jam_script.js"></script>
+    </body>
+
+</html>
